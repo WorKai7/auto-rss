@@ -22,6 +22,7 @@ base_url = "https://www.vinci.com"
 #                                 Pour les actu : https://www.vinci.com/newsroom?f[0]=newsroom_content_type:actu
 
 response = requests.get(base_url + "/newsroom")
+response.raise_for_status()
 
 # Instanciation de soup
 soup = BeautifulSoup(response.text, "html.parser")
