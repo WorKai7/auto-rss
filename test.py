@@ -29,96 +29,127 @@ session = requests.Session()
 session.headers.update(headers)
 
 
+url_list = []
 
-response = requests.get(base_url + "/newsroom")
-response.raise_for_status()
+def scrap(url: str, first_time: bool = False, affichage: bool = False):
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
 
-# Instanciation de soup
-soup = BeautifulSoup(response.text, "html.parser")
+    # Instanciation de soup
+    soup = BeautifulSoup(response.text, "html.parser")
 
+    if first_time:
+        pager_items = soup.find_all("li", class_="pager__item")
+        last_pager_item = [item for item in pager_items if item.get("class") == ["pager__item"] or item.get("class") == ["pager__item", "is-active"]][-1]
+        last_page_number = 0
 
-# Recherche des divs qu'on a besoin
-articles_divs = soup.find_all("article", class_="pr-teaser")
-titres = soup.find_all(class_="pr-teaser__title")
-images_divs = soup.find_all("div", class_="pr-teaser__image")
-details_divs = soup.find_all("div", class_="pr-teaser__details")
+        for child in last_pager_item.children:
+            text = child.get_text(strip=True)
+            if text:
+                last_page_number = int(text[-1])
 
-articles = []
-
-# Boucle sur chaque articles trouvé
-for i in range(len(titres)):
-    article = {}
-
-    # Récupération des informations nécessaires
-    article_link = [child for child in articles_divs[i].children if child.name][0].get("href")
-    image = images_divs[i].find("img")
-    enfants = [child for child in details_divs[i].children if child.name]
-    categorie = enfants[0]
-    date = enfants[-1]
+        for i in range(1, last_page_number):
+            url_list.append(base_url + "/newsroom?f[0]=newsroom_content_type:communique&page=" + str(i))
 
 
-    # Gestion du pays
-    if len(enfants) == 3:
-        pays = enfants[1]
-        article["Pays"] = pays.get_text(strip=True)
-    else:
-        article["Pays"] = "Non spécifié"
+    # Recherche des divs qu'on a besoin
+    articles_divs = soup.find_all("article", class_="pr-teaser")
+    titres = soup.find_all(class_="pr-teaser__title")
+    images_divs = soup.find_all("div", class_="pr-teaser__image")
+    details_divs = soup.find_all("div", class_="pr-teaser__details")
 
 
-    # Alimentation du dictionnaire avec les données trouvées
-    article["Titre"] = titres[i].get_text(strip=True)
-    article["Image"] = base_url + image.get("src")
-    article["Categorie"] = categorie.get_text(strip=True)
-    article["Date"] = date.get_text(strip=True)
-    article["Lien"] = base_url + article_link
+    articles = []
+
+    # Boucle sur chaque articles trouvé
+    for i in range(len(titres)):
+        article = {}
+
+        # Récupération des informations nécessaires
+        article_link = [child for child in articles_divs[i].children if child.name][0].get("href")
+        image = images_divs[i].find("img")
+        enfants = [child for child in details_divs[i].children if child.name]
+        categorie = enfants[0]
+        date = enfants[-1]
 
 
-    articles.append(article)
-
-
-# Affichage
-# for article in articles:
-#     print("--------------------------------\n")
-#     print("Titre :", article["Titre"])
-#     print("Image :", article["Image"])
-#     print("Categorie :", article["Categorie"])
-#     print("Date :", article["Date"])
-#     print("Pays :", article["Pays"])
-#     print("Lien :", article["Lien"], "\n")
-
-
-
-# Ecriture dans un fichier XML pour générer un flux RSS
-with open("vinci.rss", "w", encoding="utf-8") as rss:
-    # En tête
-    rss.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-    rss.write('<rss version="2.0">\n')
-    rss.write('    <channel>\n')
-    rss.write('        <title>Flux RSS infos VINCI</title>\n')
-    rss.write('        <link>https://workai7.github.io/auto-rss/vinci.rss</link>\n')
-    rss.write('        <description>Flux RSS contenant les informations du site de VINCI, généré par un script de scrapping</description>\n')
-
-    # Boucle sur les articles
-    for article in articles:
-        rss.write('\n        <item>\n')
-        rss.write(f'            <title>{escape_xml(article["Titre"])}</title>\n')
-        rss.write(f'            <link>{escape_xml(article["Lien"])}</link>\n')
-
-        # Description avec la catégorie et le pays
-        if article["Pays"] == "Non spécifié":
-            description = escape_xml(article["Categorie"])
+        # Gestion du pays
+        if len(enfants) == 3:
+            pays = enfants[1]
+            article["Pays"] = pays.get_text(strip=True)
         else:
-            description = escape_xml(article["Categorie"]) + "-" + escape_xml(article["Pays"])
-
-        rss.write(f'            <description>{description}</description>\n')
-        rss.write(f'            <pubDate>{escape_xml(article["Date"])}</pubDate>\n')
-        rss.write(f'            <enclosure url="{escape_xml(article["Image"])}" type="image/jpeg" />\n')
-        rss.write('        </item>\n')
+            article["Pays"] = "Non spécifié"
 
 
-    # Fermeture des balises
-    rss.write('\n    </channel>\n')
-    rss.write('</rss>\n')
+        # Alimentation du dictionnaire avec les données trouvées
+        article["Titre"] = titres[i].get_text(strip=True)
+        article["Image"] = base_url + image.get("src")
+        article["Categorie"] = categorie.get_text(strip=True)
+        article["Date"] = date.get_text(strip=True)
+        article["Lien"] = base_url + article_link
 
 
-print("Fichier généré")
+        articles.append(article)
+
+
+    # Affichage
+    if affichage:
+        for article in articles:
+            print("--------------------------------\n")
+            print("Titre :", article["Titre"])
+            print("Image :", article["Image"])
+            print("Categorie :", article["Categorie"])
+            print("Date :", article["Date"])
+            print("Pays :", article["Pays"])
+            print("Lien :", article["Lien"], "\n")
+
+
+
+    # Ecriture dans un fichier XML pour générer un flux RSS
+    with open("vinci.rss", "a", encoding="utf-8") as rss:
+
+        # Boucle sur les articles
+        for article in articles:
+            rss.write('\n        <item>\n')
+            rss.write(f'            <title>{escape_xml(article["Titre"])}</title>\n')
+            rss.write(f'            <link>{escape_xml(article["Lien"])}</link>\n')
+
+            # Description avec la catégorie et le pays
+            if article["Pays"] == "Non spécifié":
+                description = escape_xml(article["Categorie"])
+            else:
+                description = escape_xml(article["Categorie"]) + "-" + escape_xml(article["Pays"])
+
+            rss.write(f'            <description>{description}</description>\n')
+            rss.write(f'            <pubDate>{escape_xml(article["Date"])}</pubDate>\n')
+            rss.write(f'            <enclosure url="{escape_xml(article["Image"])}" type="image/jpeg" />\n')
+            rss.write('        </item>\n')
+
+    print("Articles générés pour la page", url)
+
+
+
+def start_file():
+    with open("vinci.rss", "w", encoding="utf-8") as rss:
+        rss.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        rss.write('<rss version="2.0">\n')
+        rss.write('    <channel>\n')
+        rss.write('        <title>Flux RSS infos VINCI</title>\n')
+        rss.write('        <link>https://workai7.github.io/auto-rss/vinci.rss</link>\n')
+        rss.write('        <description>Flux RSS contenant les informations du site de VINCI, généré par un script de scrapping</description>\n')
+
+
+def end_file():
+    with open("vinci.rss", "a", encoding="utf-8") as rss:
+        rss.write('\n    </channel>\n')
+        rss.write('</rss>\n')
+
+
+start_file()
+
+scrap(base_url + "/newsroom", True)
+
+for url in url_list:
+    scrap(url)
+
+end_file()
