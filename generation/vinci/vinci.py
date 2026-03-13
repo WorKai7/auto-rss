@@ -16,7 +16,7 @@ os.chdir(os.path.dirname(__file__))
 
 
 # Connexion au site
-base_url = "https://www.vinci.com/newsroom"
+base_url = "https://www.vinci.com"
 
 # URL spécifique pour les communiques de presse : https://www.vinci.com/newsroom?f[0]=newsroom_content_type:communique
 #                                 Pour les actu : https://www.vinci.com/newsroom?f[0]=newsroom_content_type:actu
@@ -132,7 +132,7 @@ start_file(
     "Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping"
 )
 
-scrap(base_url + "?f[0]=newsroom_content_type:communique", "pr", "vinci/presse.rss", True)
+scrap(base_url + "/newsroom?f[0]=newsroom_content_type:communique", "pr", "vinci/presse.rss", True)
 
 for url in url_list:
     scrap(url, "pr", "vinci/presse.rss")
@@ -153,7 +153,7 @@ start_file(
     "Flux RSS contenant les informations sur les actualités du site de VINCI, généré par un script de scrapping"
 )
 
-scrap(base_url + "?f[0]=newsroom_content_type:actu", "actu", "vinci/actu.rss")
+scrap(base_url + "/newsroom?f[0]=newsroom_content_type:actu", "actu", "vinci/actu.rss")
 
 for url in url_list:
     scrap(url, "actu", "vinci/actu.rss")
