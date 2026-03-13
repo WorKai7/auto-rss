@@ -25,9 +25,10 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
+        
+        # A améliorer pour update tous les scripts de génération
       - name: Run script
-        run: python generate.py
+        run: python generation/vinci/generate.py
 
       - name: Commit changes
         run: |

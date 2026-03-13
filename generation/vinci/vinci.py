@@ -106,7 +106,7 @@ def scrap(url: str, category: str, file: str, first_page: bool = False, affichag
 
 
     # Ecriture dans un fichier XML pour générer un flux RSS
-    with open(f"rss/{file}", "a", encoding="utf-8") as rss:
+    with open(f"../../rss/vinci/{file}", "a", encoding="utf-8") as rss:
 
         # Boucle sur les articles
         for article in articles:
@@ -130,7 +130,7 @@ def scrap(url: str, category: str, file: str, first_page: bool = False, affichag
 
 
 def start_file(file: str, title: str, link: str, desc: str):
-    with open(f"rss/{file}", "w", encoding="utf-8") as rss:
+    with open(f"../../rss/vinci/{file}", "w", encoding="utf-8") as rss:
         rss.write('<?xml version="1.0" encoding="UTF-8"?>\n')
         rss.write('<rss version="2.0">\n')
         rss.write('    <channel>\n')
@@ -140,7 +140,7 @@ def start_file(file: str, title: str, link: str, desc: str):
 
 
 def end_file(file: str):
-    with open(f"rss/{file}", "a", encoding="utf-8") as rss:
+    with open(f"../../rss/vinci/{file}", "a", encoding="utf-8") as rss:
         rss.write('\n    </channel>\n')
         rss.write('</rss>\n')
 
@@ -172,7 +172,7 @@ url_list.clear()
 start_file(
     "actu.rss",
     "Flux RSS actualités VINCI",
-    "https://workai7.github.io/auto-rss/rss/actu.rss",
+    "https://workai7.github.io/auto-rss/rss/vinci/actu.rss",
     "Flux RSS contenant les informations sur les actualités du site de VINCI, généré par un script de scrapping"
 )
 
