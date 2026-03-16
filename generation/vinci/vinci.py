@@ -24,12 +24,8 @@ base_url = "https://www.vinci.com"
 url_list = []
 
 def scrap(url: str, category: str, file: str, first_page: bool = False, affichage: bool = False):
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-    except requests.exceptions.HTTPError as e:
-        print("Erreur HTTP:", e)
-        exit(1)
+    response = requests.get(url)
+    response.raise_for_status()
 
     # Instanciation de soup
     soup = BeautifulSoup(response.text, "html.parser")
@@ -133,7 +129,8 @@ start_file(
     "vinci/presse.rss",
     "Flux RSS communiqués de presse VINCI",
     "https://workai7.github.io/auto-rss/rss/vinci/presse.rss",
-    "Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping"
+    "Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping",
+    base_url + "/newsroom?f[0]=newsroom_content_type:communique"
 )
 
 scrap(base_url + "/newsroom?f[0]=newsroom_content_type:communique", "pr", "vinci/presse.rss", True)
@@ -154,7 +151,8 @@ start_file(
     "vinci/actu.rss",
     "Flux RSS actualités VINCI",
     "https://workai7.github.io/auto-rss/rss/vinci/actu.rss",
-    "Flux RSS contenant les informations sur les actualités du site de VINCI, généré par un script de scrapping"
+    "Flux RSS contenant les informations sur les actualités du site de VINCI, généré par un script de scrapping",
+    base_url + "/newsroom?f[0]=newsroom_content_type:actu"
 )
 
 scrap(base_url + "/newsroom?f[0]=newsroom_content_type:actu", "actu", "vinci/actu.rss")

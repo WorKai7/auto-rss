@@ -77,7 +77,8 @@ start_file(
     "actemium/actu.rss",
     "Flux RSS actualités Actemium",
     "https://workai7.github.io/auto-rss/rss/actemium/actu.rss",
-    "Flux RSS contenant les informations sur les actualités du site d'Actemium, généré par un script de scrapping"
+    "Flux RSS contenant les informations sur les actualités du site d'Actemium, généré par un script de scrapping",
+    base_url
 )
 
 for article in articles:
