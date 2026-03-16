@@ -6,11 +6,19 @@
         <description>Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping</description>
 
         <item>
+            <title>VINCI remporte la conception-construction du dernier-né des projets d’énergie de fusion au Royaume-Uni</title>
+            <link>https://www.vinci.com/newsroom/communiques-presse/vinci-remporte-la-conception-construction-du-dernier-ne-des-projets</link>
+            <description>Nouveaux contrats - Royaume-Uni</description>
+            <pubDate>16 mars 2026</pubDate>
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-03/West%20Burton%20STEP%20Site.jpg?h=e961bbc5&amp;itok=meO5_hos" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>Publication de la version anglaise du document d’enregistrement universel 2025</title>
             <link>https://www.vinci.com/newsroom/communiques-presse/publication-de-la-version-anglaise-du-document-denregistrement-0</link>
             <description>Finances - France</description>
             <pubDate>11 mars 2026</pubDate>
-            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-03/vignette-deu-FR_1.jpg?h=92a444b5&amp;itok=uS2q9vvo" type="image/jpeg" />
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-03/vignette-deu-FR_1.jpg?h=92a444b5&amp;itok=tN7qtWOS" type="image/jpeg" />
         </item>
 
         <item>
@@ -74,7 +82,7 @@
             <link>https://www.vinci.com/newsroom/communiques-presse/performance-remarquable-cash-flow-libre-record</link>
             <description>Finances - France</description>
             <pubDate>05 février 2026</pubDate>
-            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-02/vignette-resultats-ann-FR.jpg?h=92a444b5&amp;itok=4d-hZCH4" type="image/jpeg" />
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-02/vignette-resultats-ann-FR.jpg?h=92a444b5&amp;itok=yoRmsvT-" type="image/jpeg" />
         </item>
 
         <item>
@@ -82,7 +90,7 @@
             <link>https://www.vinci.com/newsroom/communiques-presse/vinci-remporte-un-contrat-hydraulique-en-jamaique</link>
             <description>Nouveaux contrats - Jamaïque</description>
             <pubDate>02 février 2026</pubDate>
-            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-02/image_0.png?h=888f8bfd&amp;itok=-kL74se_" type="image/jpeg" />
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-02/image_0.png?h=888f8bfd&amp;itok=DxaCOe10" type="image/jpeg" />
         </item>
 
         <item>
