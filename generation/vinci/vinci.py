@@ -24,8 +24,12 @@ base_url = "https://www.vinci.com"
 url_list = []
 
 def scrap(url: str, category: str, file: str, first_page: bool = False, affichage: bool = False):
-    response = requests.get(url)
-    response.raise_for_status()
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        print("Erreur HTTP:", e)
+        exit(1)
 
     # Instanciation de soup
     soup = BeautifulSoup(response.text, "html.parser")

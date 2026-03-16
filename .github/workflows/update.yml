@@ -26,7 +26,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
         
-        # A améliorer pour update tous les scripts de génération
       - name: Run script
         run: |
           for script in $(find generation -type f -name "*.py"); do

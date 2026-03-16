@@ -21,8 +21,12 @@ base_url = "https://www.vinci-energies.com/actualites/"
 
 def scrap_description(url: str):
     print("Scrapping", url)
-    article_response = requests.get(url)
-    article_response.raise_for_status()
+    try:
+        article_response = requests.get(url)
+        article_response.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        print("Erreur HTTP:", e)
+        exit(1)
 
     soup = BeautifulSoup(article_response.text, "html.parser")
 
@@ -32,8 +36,12 @@ def scrap_description(url: str):
 
 print("\n\nScrapping", base_url, "\n\n")
 
-response = requests.get(base_url)
-response.raise_for_status()
+try:
+    response = requests.get(base_url)
+    response.raise_for_status()
+except requests.exceptions.HTTPError as e:
+    print("Erreur HTTP:", e)
+    exit(1)
 
 # Instanciation de soup
 soup = BeautifulSoup(response.text, "html.parser")
