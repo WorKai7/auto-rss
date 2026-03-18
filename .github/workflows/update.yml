@@ -8,6 +8,9 @@ on:
 permissions:
   contents: write
 
+env:
+  OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
 jobs:
   update:
     runs-on: ubuntu-latest
