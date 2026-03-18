@@ -1,6 +1,11 @@
 from utils.escape_xml import escape_xml
+from utils.parse_date import parse_date
 
 def write_xml(file: str, title: str, description: str, image: str, link: str, date: str):
+
+    if len(date) != 10:
+        date = parse_date(date)
+
     with open(f"../../rss/{file}", "a", encoding="utf-8") as rss:
         print("Writing in", file)
         
