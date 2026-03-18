@@ -30,7 +30,7 @@ def scrap_description(url: str):
 
     soup = BeautifulSoup(article_response.text, "html.parser")
 
-    return soup.find("p", class_="text").get_text(strip=True)
+    return soup.find("p", class_="text").get_text(" ", strip=True)
 
 
 
@@ -65,8 +65,8 @@ for i in range(len(images_divs)):
 
     link = links[i].get("href")
 
-    article["Titre"] = titres[i].get_text(strip=True)
-    article["Date"] = dates[i].get_text(strip=True)
+    article["Titre"] = titres[i].get_text(" ", strip=True)
+    article["Date"] = dates[i].get_text(" ", strip=True)
     article["Image"] = image
     article["Lien"] = link
     article["Description"] = scrap_description(link)

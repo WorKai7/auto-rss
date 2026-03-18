@@ -36,7 +36,7 @@ def scrap(url: str, category: str, file: str, first_page: bool = False, affichag
         last_page_number = 0
 
         for child in last_pager_item.children:
-            text = child.get_text(strip=True)
+            text = child.get_text(" ", strip=True)
             if text:
                 last_page_number = int(text[-1])
 
@@ -68,16 +68,16 @@ def scrap(url: str, category: str, file: str, first_page: bool = False, affichag
         # Gestion du pays
         if len(enfants) == 3:
             pays = enfants[1]
-            article["Pays"] = pays.get_text(strip=True)
+            article["Pays"] = pays.get_text(" ", strip=True)
         else:
             article["Pays"] = "Non spécifié"
 
 
         # Alimentation du dictionnaire avec les données trouvées
-        article["Titre"] = titres[i].get_text(strip=True)
+        article["Titre"] = titres[i].get_text(" ", strip=True)
         article["Image"] = base_url + image.get("src")
-        article["Categorie"] = categorie.get_text(strip=True)
-        article["Date"] = date.get_text(strip=True)
+        article["Categorie"] = categorie.get_text(" ", strip=True)
+        article["Date"] = date.get_text(" ", strip=True)
         article["Lien"] = base_url + article_link
 
 
