@@ -6,11 +6,19 @@
         <description>Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping</description>
 
         <item>
+            <title>Trafics de VINCI Autoroutes et de VINCI Airports en février 2026</title>
+            <link>https://www.vinci.com/newsroom/communiques-presse/trafics-de-vinci-autoroutes-et-de-vinci-airports-en-fevrier-2026</link>
+            <description>Trafics</description>
+            <pubDate>17 mars 2026</pubDate>
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-03/autoroutes-1520.jpg?h=9914419d&amp;itok=EiOJcRBp" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>VINCI remporte la conception-construction du dernier-né des projets d’énergie de fusion au Royaume-Uni</title>
             <link>https://www.vinci.com/newsroom/communiques-presse/vinci-remporte-la-conception-construction-du-dernier-ne-des-projets</link>
             <description>Nouveaux contrats - Royaume-Uni</description>
             <pubDate>16 mars 2026</pubDate>
-            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-03/West%20Burton%20STEP%20Site.jpg?h=e961bbc5&amp;itok=meO5_hos" type="image/jpeg" />
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-03/West%20Burton%20STEP%20Site.jpg?h=e961bbc5&amp;itok=y9xM0Jru" type="image/jpeg" />
         </item>
 
         <item>
@@ -82,7 +90,7 @@
             <link>https://www.vinci.com/newsroom/communiques-presse/performance-remarquable-cash-flow-libre-record</link>
             <description>Finances - France</description>
             <pubDate>05 février 2026</pubDate>
-            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-02/vignette-resultats-ann-FR.jpg?h=92a444b5&amp;itok=yoRmsvT-" type="image/jpeg" />
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-02/vignette-resultats-ann-FR.jpg?h=92a444b5&amp;itok=4d-hZCH4" type="image/jpeg" />
         </item>
 
         <item>
