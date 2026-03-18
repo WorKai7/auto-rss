@@ -2,7 +2,7 @@ import requests
 
 
 def start_file(file: str, title: str, link: str, desc: str, url: str):
-    response = requests.get(url)
+    response = requests.get(url, verify=False)
     response.raise_for_status()
 
     with open(f"../../rss/{file}", "w", encoding="utf-8") as rss:

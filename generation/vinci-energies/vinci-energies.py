@@ -92,7 +92,8 @@ for article in articles:
         article["Description"],
         article["Image"],
         article["Lien"],
-        article["Date"]
+        article["Date"],
+        True
     )
 
 end_file("vinci-energies/actu.rss")
