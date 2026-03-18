@@ -23,7 +23,7 @@ def ai_summary(text: str):
             "Content-Type": "application/json",
         },
         data=json.dumps({
-            "model": "google/gemma-3n-e4b-it:free",
+            "model": "stepfun/step-3.5-flash:free",
             "messages": [
                 {
                 "role": "user",
@@ -33,8 +33,9 @@ def ai_summary(text: str):
         }),
         verify=False
         )
-        
+
         response = response.json()
+        print(response)
         response = response['choices'][0]['message']['content']
 
         print("Done.")

@@ -24,7 +24,7 @@ def parse_date(date: str):
     
     jour_int = int(date_split[0])
     jour = "0" if jour_int < 10 else ""
-    jour += date_split[0]
+    jour += str(jour_int)
     mois = correspondance[date_split[1].lower()]
     annee = date_split[2]
 
