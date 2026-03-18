@@ -10,6 +10,7 @@ sys.path.append(str(Path(__file__).resolve().parents[2]))
 from utils.start_xml_file import start_file
 from utils.end_xml_file import end_file
 from utils.write_xml import write_xml
+from utils.ai_summary import ai_summary
 
 
 os.chdir(os.path.dirname(__file__))
@@ -61,22 +62,12 @@ def scrap(url: str, category: str, file: str, first_page: bool = False, affichag
         article_link = [child for child in articles_divs[i].children if child.name][0].get("href")
         image = images_divs[i].find("img")
         enfants = [child for child in details_divs[i].children if child.name]
-        categorie = enfants[0]
         date = enfants[-1]
-
-
-        # Gestion du pays
-        if len(enfants) == 3:
-            pays = enfants[1]
-            article["Pays"] = pays.get_text(" ", strip=True)
-        else:
-            article["Pays"] = "Non spécifié"
 
 
         # Alimentation du dictionnaire avec les données trouvées
         article["Titre"] = titres[i].get_text(" ", strip=True)
         article["Image"] = base_url + image.get("src")
-        article["Categorie"] = categorie.get_text(" ", strip=True)
         article["Date"] = date.get_text(" ", strip=True)
         article["Lien"] = base_url + article_link
 
@@ -98,29 +89,42 @@ def scrap(url: str, category: str, file: str, first_page: bool = False, affichag
 
 
     # Ecriture dans un fichier XML pour générer un flux RSS
-    with open(f"../../rss/{file}", "a", encoding="utf-8") as rss:
 
-        # Boucle sur les articles
-        for article in articles:
+    # Boucle sur les articles
+    for article in articles:
 
-            # Description avec la catégorie et le pays
-            if article["Pays"] == "Non spécifié":
-                description = article["Categorie"]
-            else:
-                description = article["Categorie"] + " - " + article["Pays"]
-            
-            write_xml(
-                file,
-                article["Titre"],
-                description,
-                article["Image"],
-                article["Lien"],
-                article["Date"]
-            )
+        # Description générée par IA
+        description = scrap_summary(article["Lien"])
+        
+        write_xml(
+            file,
+            article["Titre"],
+            description,
+            article["Image"],
+            article["Lien"],
+            article["Date"]
+        )
 
 
     print("Articles générés pour la page", url)
 
+
+def scrap_summary(url: str):
+    response = requests.get(url)
+    response.raise_for_status()
+
+    # Instanciation de soup
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    important = soup.find(class_="pr-important")
+    article = soup.find("div", class_="paragraph__wrapper")
+
+    article_to_summarize = important.get_text(strip=True) if important else ""
+    article_to_summarize += article.get_text(strip=True)
+
+    summary = ai_summary(article_to_summarize)
+
+    return summary
 
 
 # ----- FICHIER PRESSE -----

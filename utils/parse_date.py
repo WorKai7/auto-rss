@@ -18,11 +18,15 @@ correspondance = {
 
 def parse_date(date: str):
     date_split = date.split(" ")
-
-    jour = date_split[0]
+    
+    jour_int = int(date_split[0])
+    jour = "0" if jour_int < 10 else ""
+    jour += date_split[0]
     mois = correspondance[date_split[1]]
     annee = date_split[2]
 
     parsed_date = jour + "." + mois + "." + annee
 
     return parsed_date
+
+print(parse_date("10 mars 2022"))
