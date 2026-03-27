@@ -6,6 +6,14 @@
         <description>Flux RSS contenant les informations sur les actualités du site d'Actemium, généré par un script de scrapping</description>
 
         <item>
+            <title>Graduate Program Maintenance Industrielle</title>
+            <link>https://www.actemium.fr/realisations-evenements/graduate-program-maintenance-industrielle/</link>
+            <description>Tu veux évoluer dans un environnement qui allie agilité, autonomie et puissance d’un grand groupe ? Rejoins le réseau Actemium (VINCI Energies) et développe ton potentiel dès le début de ta carrière.</description>
+            <pubDate>27.03.2026</pubDate>
+            <enclosure url="https://www.actemium.fr/app/uploads/sites/85/2025/07/exploitation.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>Romain Rodrigues, Actemium Nancy : la course du cœur</title>
             <link>https://www.actemium.fr/realisations-evenements/romain-rodrigues-actemium-nancy-la-course-du-coeur/</link>
             <description>Le 8 mars dernier, Romain Rodrigues a participé au semi-marathon de Paris. Au-delà de la dimension sportive, le jeune animateur QSSE d’Actemium Nancy courait surtout pour soutenir l’association Mécénat Chirurgie Cardiaque et contribuer à financer l’opération d’enfants atteints de malformations cardiaques.</description>
@@ -75,14 +83,6 @@
             <description>La Société de Projet SHYMED (Solution HYdrogène pour la Mobilité Electrique du Dunkerquois), réunissant la Communauté Urbaine de Dunkerque, Hynamics (filiale du groupe EDF) et la Banque des Territoires, exploite depuis le 1 er septembre une station de production et de distribution d’hydrogène par électrolyse .</description>
             <pubDate>06.10.2025</pubDate>
             <enclosure url="https://www.actemium.fr/app/uploads/sites/85/2025/10/Hynamics-Shymed_drone-scaled.png" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Le port de Lyon se modernise avec Actemium Maintenance Belfort</title>
-            <link>https://www.actemium.fr/realisations-evenements/le-port-de-lyon-se-modernise-avec-actemium-maintenance-belfort/</link>
-            <description>Début 2025, Actemium Maintenance Belfort a remporté le marché de rénovation électrique et mécanique d’un des deux portiques à conteneurs du port Édouard Herriot à Lyon. Ce contrat s’inscrit dans le cadre du projet de développement du trafic fluvial entre la Méditerranée et Lyon, confié par la Compagnie Nationale du Rhône (CNR) à CMA CGM. Objectif : impulser une dynamique ambitieuse de transition vers une logistique plus durable , en renforçant l’axe fluvial Méditerranée-Rhône-Saône comme alternative performante et écologique au transport routier.</description>
-            <pubDate>01.09.2025</pubDate>
-            <enclosure url="https://www.actemium.fr/app/uploads/sites/85/2025/09/image.png" type="image/jpeg" />
         </item>
 
     </channel>
