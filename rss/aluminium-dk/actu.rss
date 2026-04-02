@@ -6,6 +6,46 @@
         <description>Flux RSS contenant les informations sur les actualités du site de Aluminium DK, généré par un script de scrapping</description>
 
         <item>
+            <title>Décarboner l’industrie, concrètement : une nouvelle étape franchie !</title>
+            <link>https://www.aluminiumdunkerque.fr/decarboner-lindustrie-concretement-une-nouvelle-etape-franchie/</link>
+            <description>Le projet ACCEL, dédié à la capture et au stockage du CO₂, a récemment atteint un jalon majeur. L’État a attribué une subvention de 360 millions d’euros (Appel d’Offres Grand Projets industriels de décarbonation), reconnaissant à la fois l’importance de la décarbonation industrielle, la pertinence des solutions de Carbon Capture &amp; Storage lorsqu’il n’existe pas d’alternative technique, et la maturité du projet porté par Aluminium Dunkerque.</description>
+            <pubDate>2026-04-02T14:22:17+02:00</pubDate>
+            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2026/04/51-Photo-3-500x500.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
+            <title>Aluminium Dunkerque partenaire de Swimming Expedition (association de Stève le Phoque) et de la Fondation de la Mer</title>
+            <link>https://www.aluminiumdunkerque.fr/aluminium-dunkerque-partenaire-de-swimming-expedition-association-de-steve-le-phoque-et-de-la-fondation-de-la-mer/</link>
+            <description>Aluminium Dunkerque a structuré sa politique de mécénat autour de 2 axes, directement liés à nos enjeux stratégiques :Le soutien aux actions favorisant l’insertion et l’emploi des jeunesL’appui à des démarches visant à préserver l’environnement et, plus précisément, à accélérer la décarbonation.</description>
+            <pubDate>2026-04-02T14:20:25+02:00</pubDate>
+            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2026/04/STEVE-le-phoque-500x500.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
+            <title>Une réduction de 64 % de notre consommation d’eau depuis 2019</title>
+            <link>https://www.aluminiumdunkerque.fr/une-reduction-de-64-de-notre-consommation-deau-depuis-2019/</link>
+            <description>Implantée dans une zone soumise à un stress hydrique important, Aluminium Dunkerque poursuit activement sa démarche de sobriété et de gestion responsable de l’eau. En 2025, le site affiche une réduction globale de 25 % de ses consommations d’eau (industrielle et potable) par rapport à 2019, dont -64 % pour l’eau potable.</description>
+            <pubDate>2026-04-02T14:17:12+02:00</pubDate>
+            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2026/04/evenement-01-1-500x500.png" type="image/jpeg" />
+        </item>
+
+        <item>
+            <title>Forum des Partenaires Industriels EDF : Aluminium Dunkerque partage son expertise en management de la Sécurité</title>
+            <link>https://www.aluminiumdunkerque.fr/forum-des-partenaires-industriels-edf-aluminium-dunkerque-partage-son-expertise-en-management-de-la-securite/</link>
+            <description>Le 3 février dernier, la centrale EDF de Gravelines organisait son Forum des Partenaires Industriels au Channel à Calais. Notre service Santé/Sécurité a introduit cet événement en partageant un retour d’expérience sur le management de la Sécurité chez Aluminium Dunkerque, sous la forme de quatre thématiques.</description>
+            <pubDate>2026-04-02T14:15:34+02:00</pubDate>
+            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2026/04/EDF-Forum-securite-500x500.jpeg" type="image/jpeg" />
+        </item>
+
+        <item>
+            <title>Aluminium Dunkerque au cœur des enjeux d’électrification industrielle</title>
+            <link>https://www.aluminiumdunkerque.fr/aluminium-dunkerque-au-coeur-des-enjeux-delectrification-industrielle/</link>
+            <description>L’Usine Nouvelle et EDF ont organisé le 4 février à Dunkerque une nouvelle étape des Rencontres de l’Électrique, un rendez-vous dédié à l’accélération concrète de l’électrification de l’industrie française.</description>
+            <pubDate>2026-04-02T14:10:26+02:00</pubDate>
+            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2026/04/RE-500x500.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>Une première dans l’industrie de l’aluminium !</title>
             <link>https://www.aluminiumdunkerque.fr/une-premiere-dans-lindustrie-de-laluminium/</link>
             <description>Le container destiné à mener les tests de capture du CO₂ est arrivé sur site le 10 novembre.Cet équipement a pour vocation de réaliser des tests de capture du CO₂ à base d’amines.</description>
@@ -43,46 +83,6 @@
             <description>Samedi 18 octobre, l’équipe de football de Dunkerque affrontait Montpellier au stade Tribut. Une belle rencontre sponsorisée par Aluminium Dunkerque qui était pour l’occasion parrain du match, dans le cadre du partenariat noué avec le club.</description>
             <pubDate>2025-12-17T13:23:29+01:00</pubDate>
             <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2025/12/DSC03737-1-500x500.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Aluminium  Dunkerque conforte son rayonnement international</title>
-            <link>https://www.aluminiumdunkerque.fr/un-jumeau-numerique-immersif-pour-aluminium-dunkerque-vitrine-de-la-transition-industrielle-2/</link>
-            <description>Chaque année, la conférence ICSOBA réunit les principaux acteurs de la filière bauxite–alumine–aluminium afin de partager les avancées technologiques, scientifiques et industrielles du secteur.</description>
-            <pubDate>2025-12-17T13:20:37+01:00</pubDate>
-            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2025/12/ICSOBA-500x461.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Un jumeau numérique immersif pour Aluminium Dunkerque, vitrine de la transition industrielle</title>
-            <link>https://www.aluminiumdunkerque.fr/un-jumeau-numerique-immersif-pour-aluminium-dunkerque-vitrine-de-la-transition-industrielle/</link>
-            <description>Une carte interactive du territoire, présentant les projets de décarbonation des entreprises, est désormais visible dans le showroom d’EcosystèmeD au sein de son nouveau bâtiment.</description>
-            <pubDate>2025-10-06T20:28:39+02:00</pubDate>
-            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2025/10/Jumeau-numerique-500x500.png" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Guillaume de Goÿs, CEO d’Aluminium Dunkerque, partage sa vision des enjeux et des perspectives de l’entreprise dans un monde en transformation</title>
-            <link>https://www.aluminiumdunkerque.fr/guillaume-de-goys-ceo-daluminium-dunkerque-partage-sa-vision-des-enjeux-et-des-perspectives-de-lentreprise-dans-un-monde-en-transformation/</link>
-            <description>Guillaume de Goÿs a été sollicité par le cabinet Adequancy pour enregistrer un podcast dans le cadre de la série « Les Afters de la transformation ».</description>
-            <pubDate>2025-10-06T20:14:14+02:00</pubDate>
-            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2025/10/podcast-500x217.png" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Four 8 : -25 % de gaz pour un aluminium plus durable</title>
-            <link>https://www.aluminiumdunkerque.fr/four-8-25-de-gaz-pour-un-aluminium-plus-durable/</link>
-            <description>Le four 8, au sein duquel nous recyclons de l’aluminium en fin de vie, se rapproche de sa vitesse de croisière. Les tests techniques de réception sont en cours et 12 000 tonnes ont été enfournées depuis le démarrage le 14 avril.</description>
-            <pubDate>2025-10-06T20:12:16+02:00</pubDate>
-            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2025/10/Four-8-500x500.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Changement climatique : Aluminium Dunkerque partage son expérience à Bercy</title>
-            <link>https://www.aluminiumdunkerque.fr/changement-climatique-aluminium-dunkerque-partage-son-experience-a-bercy/</link>
-            <description>Alors que les effets du changement climatique sont de plus en plus intenses, la Direction Générale des Entreprises du ministère de l’Economie a réuni à Bercy, le 12 septembre, des entreprises, experts et acteurs publics pour partager des retours d’expérience et des solutions concrètes d’adaptation.</description>
-            <pubDate>2025-10-06T20:10:03+02:00</pubDate>
-            <enclosure url="https://www.aluminiumdunkerque.fr/wp-content/uploads/2025/10/Bercy-500x500.jpg" type="image/jpeg" />
         </item>
 
     </channel>
