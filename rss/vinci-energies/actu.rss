@@ -6,6 +6,30 @@
         <description>Flux RSS contenant les informations sur les actualités du site de Vinci Energies, généré par un script de scrapping</description>
 
         <item>
+            <title>Une aventure artistique au Hameau Bellevue</title>
+            <link>https://www.vinci-energies.com/actualites/une-aventure-artistique-au-hameau-bellevue/</link>
+            <description>Les jeunes résidents du Hameau Bellevue à Salies‑de‑Béarn peuvent désormais admirer leur nouvelle fresque murale. Une œuvre collective, réalisée sous la direction de l’artiste Fanny Pierot grâce au soutien de plusieurs entreprises Actemium.</description>
+            <pubDate>Thu, 02 Apr 2026 00:00:00 -0000</pubDate>
+            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/04/Fresque_395x280.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
+            <title>VINCI Energies acquiert Sanders Machinebouw et Fockens &amp; van Puijenbroek</title>
+            <link>https://www.vinci-energies.com/actualites/vinci-energies-acquiert-sanders-machinebouw-et-fockens-van-puijenbroek/</link>
+            <description>VINCI Energies annonce l’acquisition de Sanders Machinebouw B.V. à Liempde et de Fockens &amp; van Puijenbroek Machinefabriek B.V. à Hertogenbosch, aux Pays-Bas. Par cette opération, VINCI Energies enrichit son portefeuille industriel avec des solutions de génie mécanique et de machines de haute précision.</description>
+            <pubDate>Thu, 02 Apr 2026 00:00:00 -0000</pubDate>
+            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/04/Acquisition-NL_395x280.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
+            <title>VINCI remporte la réalisation d’infrastructures fluviales en France</title>
+            <link>https://www.vinci-energies.com/communiques-de-presse/vinci-remporte-la-realisation-dinfrastructures-fluviales-en-france/</link>
+            <description>La Compagnie nationale du Rhône a attribué au groupement d’entreprises¹ , mené par VINCI Construction et comprenant VINCI Energies, la réalisation du doublement des portes aval des écluses de Bollène (Vaucluse) et de Châteauneuf-du-Rhône (Drôme).</description>
+            <pubDate>Wed, 18 Mar 2026 00:00:00 -0000</pubDate>
+            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/03/CP_395x280.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>Semi-Marathon Paris 2026 : une course, une vie sauvée</title>
             <link>https://www.vinci-energies.com/actualites/semi-marathon-paris-2026-une-course-une-vie-sauvee/</link>
             <description>Le 8 mars dernier, 31 Coureurs du Cœur de VINCI Energies ont participé au semi‑marathon de Paris sous les couleurs de Mécénat Chirurgie Cardiaque.</description>
@@ -63,34 +87,10 @@
 
         <item>
             <title>VINCI Energies réaffirme son engagement aux côtés de Mécénat Chirurgie Cardiaque</title>
-            <link>https://www.vinci-energies.com/communiqus-de-presse/vinci-energies-reaffirme-son-engagement-aux-cotes-de-mecenat-chirurgie-cardiaque/</link>
+            <link>https://www.vinci-energies.com/communiques-de-presse/vinci-energies-reaffirme-son-engagement-aux-cotes-de-mecenat-chirurgie-cardiaque/</link>
             <description>Après huit belles années de courses et de temps forts partagés en tant que partenaire associé et mécène du projet Initiatives-Cœur, VINCI Energies choisit d’amplifier son soutien à l’association Mécénat Chirurgie Cardiaque, en se consacrant pleinement à son rôle de mécène.</description>
             <pubDate>Mon, 15 Dec 2025 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2025/12/MCC_395x280.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Engagés aux côtés de La Cigalette</title>
-            <link>https://www.vinci-energies.com/actualites/engages-aux-cotes-de-la-cigalette/</link>
-            <description>Le 24 janvier 2025, un chèque de la Fondation VINCI pour la Cité a été remis au centre social et culturel La Cigalette par des collaborateurs de l’entreprise Citeos située à Avignon.</description>
-            <pubDate>Wed, 03 Dec 2025 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2025/12/La-Cigalette_Screenshot_395x280.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Engagement solidaire en Tanzanie</title>
-            <link>https://www.vinci-energies.com/actualites/engagement-solidaire-en-tanzanie/</link>
-            <description>Godwill Dah, apprenti chez Cegelec API, a choisi de mettre ses compétences au service d’un projet éducatif durable en Tanzanie. Une initiative soutenue par son entreprise, qui illustre l’impact concret de l’engagement solidaire.</description>
-            <pubDate>Wed, 26 Nov 2025 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2025/11/Engagement-Tanzanie_395x280.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Des colis alimentaires solidaires</title>
-            <link>https://www.vinci-energies.com/actualites/des-colis-alimentaires-solidaires/</link>
-            <description>La Fondation VINCI aux Pays-Bas soutient l’association « Mi Amigo », parrainée par Sietse Dekker, directeur financier chez Axians aux Pays-Bas.</description>
-            <pubDate>Fri, 14 Nov 2025 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2025/11/MiAmigo_395x280.jpg" type="image/jpeg" />
         </item>
 
     </channel>
