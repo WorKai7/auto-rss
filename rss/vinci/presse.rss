@@ -6,6 +6,14 @@
         <description>Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping</description>
 
         <item>
+            <title>VINCI remporte le contrat de modernisation de la principale station de traitement des eaux de Prague</title>
+            <link>https://www.vinci.com/newsroom/communiques-presse/vinci-remporte-le-contrat-de-modernisation-de-la-principale-station-de</link>
+            <description>La Société de gestion de l’eau de Prague a attribué à un groupement dirigé par une filiale de VINCI Construction le contrat de réhabilitation lourde de la station centrale de traitement des eaux usées de la capitale tchèque, d’un montant total de 192 millions d’euros. Les travaux, qui commenceront en octobre 2026 pour une durée de 43 mois, prévoient le démantèlement des équipements existants, la démolition et la reconstruction de 40 ouvrages, dont 8 des 20 bassins de décantation seront entièrement reconstruits et 4 rénovés, ainsi que l’installation de nouvelles technologies de purification. Cette modernisation vise à améliorer la qualité du traitement des eaux usées, à optimiser la consommation énergétique et à réduire l’impact environnemental du chantier par la réutilisation des matériaux sur place et l’emploi d’eau de pluie et d’eau recyclée. VINCI Construction, déjà présent en République tchèque avec un chiffre d’affaires dépassant 1,2 milliard d’euros en 2025, réalise ce projet aux côtés de plusieurs de ses filiales et de partenaires tels que Hochtief CZ, Hochtief Infrastructure GmbH et Česká voda‑MEMSEP (groupe Veolia).</description>
+            <pubDate>09 avril 2026</pubDate>
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-04/banner-cp-090426.jpg?h=92a444b5&amp;itok=b372Dm1d" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>VINCI signe un accord avec Macquarie Asset Management pour l’acquisition de neuf autoroutes en concession en Inde</title>
             <link>https://www.vinci.com/newsroom/communiques-presse/vinci-signe-un-accord-avec-macquarie-asset-management-pour-lacquisition</link>
             <description>VINCI Highways, filiale de VINCI Concessions, a conclu un accord pour acheter le portefeuille Safeway Concessions, qui comprend neuf concessions autoroutières à péage totalisant près de 700 km dans les États indiens d’Andhra Pradesh et du Gujarat. Ces tronçons, situés sur des axes structurants comme le NH‑16 (partie du Golden Quadrilateral), sont exploités sous des contrats TOT (Toll Operate Transfer) avec l’Autorité nationale des autoroutes de l’Inde (NHAI) jusqu’entre 2048 et 2058. La transaction, évaluée à environ 150 milliards de roupies (≈15 × l’Ebitda), devrait être clôturée financièrement d’ici fin 2026, sous réserve des autorisations indiennes, et offre à VINCI des leviers d’optimisation financière, opérationnelle et de digitalisation du péage.</description>
@@ -169,20 +177,6 @@ Cette performance confirme le leadership mondial privé de VINCI Airports et son
 </description>
             <pubDate>Tue, 20 Jan 2026 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-01/01_gatwick_845_8.jpg?h=92a444b5&amp;itok=g8G-E72A" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>VINCI se renforce en Nouvelle-Zélande à travers l’acquisition de Fletcher Construction</title>
-            <link>https://www.vinci.com/newsroom/communiques-presse/vinci-se-renforce-en-nouvelle-zelande-travers-lacquisition-de-fletcher</link>
-            <description>VINCI Construction a annoncé un accord pour acquérir Fletcher Construction, une entreprise néo-zélandaise spécialisée dans les infrastructures. L&apos;opération, soumise aux autorités, devrait se finaliser en 2026.
-
-Fletcher Construction, fondée en 1909, réalise un chiffre d&apos;affaires annuel d&apos;environ 630 millions d&apos;euros avec 2 300 collaborateurs. Ses expertises couvrent les travaux hydrauliques, maritimes, portuaires, aéroportuaires, ferroviaires et routiers, avec une activité croissante dans les énergies renouvelables.
-
-Cette acquisition, associée à la présence déjà établie de HEB Construction, permettra à VINCI Construction de renforcer significativement sa position sur le marché très dynamique des infrastructures en Nouvelle-Zélande. Le groupe VINCI y avait déjà réalisé plus de 900 millions d&apos;euros de chiffre d&apos;affaires en 2024.
-
-</description>
-            <pubDate>Tue, 20 Jan 2026 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-01/Getty%20illustration%20NZ_copyright%20nazar_ab%3AGetty%20Images.jpg?h=a304bd43&amp;itok=QFEJh3ko" type="image/jpeg" />
         </item>
 
     </channel>
