@@ -10,7 +10,7 @@ API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not API_KEY:
     raise ValueError("La clé API OPENROUTER_API_KEY n'est pas définie")
 
-prompt = "Voici un texte censé représenter un article, si c'est écrit que l'article est disponible en pdf et qu'il n'y a pas d'article écrit directement, réponds moi 'Article disponible uniquement sur le site', si l'article est écrit alors tu ne m'écris pas que l'article est dispo sur le site ok ? c'est que si c'est juste écrit un truc comme 'dispo en pdf' fais moi un résumé de celui ci comme si tu écrivais un article mais en plus court genre vraiment pas long si possible 3-4 phrases. Voici le texte : "
+prompt = "Voici un texte censé représenter un article ou autre chose, si c'est écrit que l'article est disponible en pdf et qu'il n'y a pas d'article écrit directement, réponds moi 'Article disponible uniquement sur le site', si l'article est écrit alors tu ne m'écris pas que l'article est dispo sur le site ok ? c'est que si c'est juste écrit un truc comme 'dispo en pdf' fais moi un résumé de celui ci comme si tu écrivais un article mais en plus court genre vraiment pas long si possible 3-4 phrases. Même si c'est une assemblée générale ou peu importe, tant qu'il y a du texte que tu peux résumer, résume le. Voici le texte : "
 
 
 def ai_summary(text: str, prompt: str = prompt):
