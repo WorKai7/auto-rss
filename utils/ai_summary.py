@@ -10,32 +10,32 @@ API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not API_KEY:
     raise ValueError("La clé API OPENROUTER_API_KEY n'est pas définie")
 
-prompt = "Voici un texte censé représenter un article, si c'est écrit que l'article est disponible en pdf et qu'il n'y a pas d'article écrit directement, réponds moi 'Article disponible sur le site', si l'article est écrit alors tu ne m'écris pas que l'article est dispo sur le site ok ? c'est que si c'est juste écrit un truc comme 'dispo en pdf' fais moi un résumé de celui ci comme si tu écrivais un article mais en plus court genre vraiment pas long si possible 4-5 phrases. Puis a la fin du message, toujours si l'article est écrit, ajoute '(Résumé généré par IA)', voici le texte : "
+prompt = "Voici un texte censé représenter un article, si c'est écrit que l'article est disponible en pdf et qu'il n'y a pas d'article écrit directement, réponds moi 'Article disponible uniquement sur le site', si l'article est écrit alors tu ne m'écris pas que l'article est dispo sur le site ok ? c'est que si c'est juste écrit un truc comme 'dispo en pdf' fais moi un résumé de celui ci comme si tu écrivais un article mais en plus court genre vraiment pas long si possible 4-5 phrases. Voici le texte : "
 
 
-def ai_summary(text: str):
+def ai_summary(text: str, prompt: str = prompt):
     try:
         print("Generating AI summary...")
         response = requests.post(
-        url="https://openrouter.ai/api/v1/chat/completions",
-        headers={
-            "Authorization": f"Bearer {API_KEY}",
-            "Content-Type": "application/json",
-        },
-        data=json.dumps({
-            "model": "stepfun/step-3.5-flash:free",
-            "messages": [
-                {
-                "role": "user",
-                "content": prompt + text
-                }
-            ]
-        }),
-        verify=False
+            url="https://openrouter.ai/api/v1/chat/completions",
+            headers={
+                "Authorization": f"Bearer {API_KEY}",
+                "Content-Type": "application/json",
+            },
+            data=json.dumps({
+                "model": "nvidia/nemotron-3-super-120b-a12b:free",
+                "messages": [
+                    {
+                    "role": "user",
+                    "content": prompt + text
+                    }
+                ]
+            }),
+            verify=False
         )
 
         response = response.json()
-        print(response)
+        # print(response)
         response = response['choices'][0]['message']['content']
 
         print("Done.")
@@ -45,3 +45,6 @@ def ai_summary(text: str):
     except:
         print("Erreur de génération du résumé")
         return "Erreur de génération du résumé"
+    
+
+# print(ai_summary("exceptionnel", "Combien y a-t-il de e dans ce texte: "))
