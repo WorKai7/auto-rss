@@ -6,6 +6,14 @@
         <description>Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping</description>
 
         <item>
+            <title>Assemblée générale des actionnaires de VINCI du 14 avril 2026</title>
+            <link>https://www.vinci.com/newsroom/communiques-presse/assemblee-generale-des-actionnaires-de-vinci-du-14-avril-2026</link>
+            <description>L’assemblée générale mixte des actionnaires de VINCI, présidée par Xavier Huillard, a approuvé toutes les résolutions soumises, incluant l’adoption des comptes 2025 et la distribution d’un dividende de 5,00 euros par action (solde de 3,95 euros payable le 23 avril 2026). Les mandats d’administrateurs de Xavier Huillard, Claude Laruelle et René Medori ont été renouvelés pour quatre ans, tandis que la cooptation de Frédéric Nougarède en tant qu’administrateur représentant les salariés actionnaires a été ratifiée. Après l’AG, le conseil d’administration a nommé Xavier Huillard président du conseil, accueilli Nelson Martinho Galego en remplacement de Roberto Migliardi et rendu hommage à Marie‑Christine Lombard pour ses douze années de service. Le résultat des votes et la vidéo de l’assemblée seront prochainement publiés sur www.vinci.com.</description>
+            <pubDate>14 avril 2026</pubDate>
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-04/vignette-AG-VINCI-FR.jpg?h=92a444b5&amp;itok=K6qWLSVs" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>VINCI remporte le contrat de modernisation de la principale station de traitement des eaux de Prague</title>
             <link>https://www.vinci.com/newsroom/communiques-presse/vinci-remporte-le-contrat-de-modernisation-de-la-principale-station-de</link>
             <description>La Société de gestion de l’eau de Prague a attribué à un groupement dirigé par une filiale de VINCI Construction le contrat de réhabilitation lourde de la station centrale de traitement des eaux usées de la capitale tchèque, d’un montant total de 192 millions d’euros. Les travaux, qui commenceront en octobre 2026 pour une durée de 43 mois, prévoient le démantèlement des équipements existants, la démolition et la reconstruction de 40 ouvrages, dont 8 des 20 bassins de décantation seront entièrement reconstruits et 4 rénovés, ainsi que l’installation de nouvelles technologies de purification. Cette modernisation vise à améliorer la qualité du traitement des eaux usées, à optimiser la consommation énergétique et à réduire l’impact environnemental du chantier par la réutilisation des matériaux sur place et l’emploi d’eau de pluie et d’eau recyclée. VINCI Construction, déjà présent en République tchèque avec un chiffre d’affaires dépassant 1,2 milliard d’euros en 2025, réalise ce projet aux côtés de plusieurs de ses filiales et de partenaires tels que Hochtief CZ, Hochtief Infrastructure GmbH et Česká voda‑MEMSEP (groupe Veolia).</description>
@@ -159,24 +167,6 @@ Le directeur général, Pierre Anjolras, souligne la pertinence du modèle déce
 </description>
             <pubDate>Mon, 02 Feb 2026 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-02/image_0.png?h=888f8bfd&amp;itok=DxaCOe10" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>VINCI Airports – Trafic au 31 décembre 2025</title>
-            <link>https://www.vinci.com/newsroom/communiques-presse/vinci-airports-trafic-au-31-decembre-2025</link>
-            <description>**Résumé : VINCI Airports enregistre une forte croissance du trafic en 2025**
-
-VINCI Airports a accueilli plus de 334 millions de passagers en 2025, soit une hausse de 5 % par rapport à 2024. Le quatrième trimestre affiche également une progression de 3,2 %, confirmant une dynamique solide à l’échelle mondiale.
-
-Plusieurs aéroports du réseau se distinguent : Budapest et Édimbourg (nouvellement intégrés) affichent des croissances à deux chiffres, portées par les compagnies low-cost et les liaisons méditerranéennes. Belgrade, Porto, Lisbonne (notamment sur le long-courrier) et Lyon (vols internationaux diversifiés) progressent également.
-
-En Amérique latine et en Afrique, Salvador de Bahia (Brésil), Monterrey (Mexique) et les aéroports du Cap-Vert enregistrent des records de fréquentation, grâce au développement des low-cost et aux lignes transatlantiques. Au Japon, le trafic est en hausse malgré des annulations de vols liées aux tensions géopolitiques avec la Chine en décembre.
-
-Cette performance confirme le leadership mondial privé de VINCI Airports et son inscription dans la tendance générale de reprise du trafic aérien.
-
-</description>
-            <pubDate>Tue, 20 Jan 2026 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-01/01_gatwick_845_8.jpg?h=92a444b5&amp;itok=g8G-E72A" type="image/jpeg" />
         </item>
 
     </channel>
