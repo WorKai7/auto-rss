@@ -6,6 +6,22 @@
         <description>Flux RSS contenant les informations sur les actualités du site de Vinci Energies, généré par un script de scrapping</description>
 
         <item>
+            <title>VINCI Energies acquiert Novo Technologies Ltd</title>
+            <link>https://www.vinci-energies.com/actualites/vinci-energies-acquiert-novo-technologies-ltd/</link>
+            <description>VINCI Energies acquiert Novo Technologies Ltd, l’un des principaux fournisseurs de services d’infrastructures télécoms au Royaume-Uni.</description>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
+            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/04/Novo-Technologies.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
+            <title>VINCI Energies fait l’acquisition de AMT Consulting SA au Portugal</title>
+            <link>https://www.vinci-energies.com/actualites/vinci-energies-fait-lacquisition-de-amt-consulting-sa-au-portugal/</link>
+            <description>VINCI Energies Portugal annonce l’acquisition d’AMT – Consulting S.A., une entreprise portugaise leader dans les solutions HCM (Human Capital Management) et ERP (Enterprise Resource Planning), ainsi qu’une référence dans de multiples solutions SAP, notamment SuccessFactors, Concur, Ariba et S/4HANA.</description>
+            <pubDate>Tue, 07 Apr 2026 00:00:00 -0000</pubDate>
+            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2025/07/Presse_395x280.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>Une aventure artistique au Hameau Bellevue</title>
             <link>https://www.vinci-energies.com/actualites/une-aventure-artistique-au-hameau-bellevue/</link>
             <description>Les jeunes résidents du Hameau Bellevue à Salies‑de‑Béarn peuvent désormais admirer leur nouvelle fresque murale. Une œuvre collective, réalisée sous la direction de l’artiste Fanny Pierot grâce au soutien de plusieurs entreprises Actemium.</description>
@@ -75,22 +91,6 @@
             <description>La Fundación VINCI España soutient un projet visant l’insertion professionnelle des personnes en situation de handicap intellectuel. Cette initiative, menée en partenariat avec la Fondation FUNDATUL, a permis à cinq bénéficiaires d’accéder à un emploi.</description>
             <pubDate>Mon, 12 Jan 2026 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/01/Fundacion-VINCI-Espana_395x280.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Nouvelle infrastructure énergétique du Terminal Portuaire de São Luís</title>
-            <link>https://www.vinci-energies.com/actualites/nouvelle-infrastructure-energetique-du-terminal-portuaire-de-sao-luis/</link>
-            <description>Actemium au Brésil a réalisé la construction d’un réseau électrique aérien de 13,8 kV pour alimenter le Terminal Portuaire de São Luís, propriété de VLI, situé près du port d&apos;Itaqui, au Brésil.</description>
-            <pubDate>Thu, 08 Jan 2026 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/01/TPSL_395x280.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>VINCI Energies réaffirme son engagement aux côtés de Mécénat Chirurgie Cardiaque</title>
-            <link>https://www.vinci-energies.com/communiques-de-presse/vinci-energies-reaffirme-son-engagement-aux-cotes-de-mecenat-chirurgie-cardiaque/</link>
-            <description>Après huit belles années de courses et de temps forts partagés en tant que partenaire associé et mécène du projet Initiatives-Cœur, VINCI Energies choisit d’amplifier son soutien à l’association Mécénat Chirurgie Cardiaque, en se consacrant pleinement à son rôle de mécène.</description>
-            <pubDate>Mon, 15 Dec 2025 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2025/12/MCC_395x280.jpg" type="image/jpeg" />
         </item>
 
     </channel>
