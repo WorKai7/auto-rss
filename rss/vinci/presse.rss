@@ -6,6 +6,14 @@
         <description>Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping</description>
 
         <item>
+            <title>VINCI remporte la construction d’un tronçon autoroutier en République tchèque</title>
+            <link>https://www.vinci.com/newsroom/communiques-presse/vinci-remporte-la-construction-dun-troncon-autoroutier-en-republique</link>
+            <description>Eurovia CZ, filiale de VINCI Construction, a obtenu le contrat pour construire le dernier tronçon de l&apos;autoroute D11 entre Jaroměř et Trutnov, soit environ 20 km de chaussée, 31 ponts (2,5 km au total) et un tunnel de 767 m, avec un montant de 364 millions d&apos;euros. Les travaux, qui débuteront en avril 2026 et s&apos;achèveront fin 2029, incluent également la réalisation de 12 km de murs antibruit et la sécurisation des couloirs de migration de la faune sauvage afin de limiter les nuisances sonores et environnementales. VINCI Construction, présent en République tchèque depuis plusieurs années, y emploie plus de 5 400 personnes et a réalisé un chiffre d&apos;affaires de plus de 1,2 milliard d&apos;euros en 2025.</description>
+            <pubDate>15 avril 2026</pubDate>
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-04/D11-republique-tcheque.png?h=582b757b&amp;itok=1OugrJGf" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>Assemblée générale des actionnaires de VINCI du 14 avril 2026</title>
             <link>https://www.vinci.com/newsroom/communiques-presse/assemblee-generale-des-actionnaires-de-vinci-du-14-avril-2026</link>
             <description>L’assemblée générale mixte des actionnaires de VINCI, présidée par Xavier Huillard, a approuvé toutes les résolutions soumises, incluant l’adoption des comptes 2025 et la distribution d’un dividende de 5,00 euros par action (solde de 3,95 euros payable le 23 avril 2026). Les mandats d’administrateurs de Xavier Huillard, Claude Laruelle et René Medori ont été renouvelés pour quatre ans, tandis que la cooptation de Frédéric Nougarède en tant qu’administrateur représentant les salariés actionnaires a été ratifiée. Après l’AG, le conseil d’administration a nommé Xavier Huillard président du conseil, accueilli Nelson Martinho Galego en remplacement de Roberto Migliardi et rendu hommage à Marie‑Christine Lombard pour ses douze années de service. Le résultat des votes et la vidéo de l’assemblée seront prochainement publiés sur www.vinci.com.</description>
@@ -157,16 +165,6 @@ Le directeur général, Pierre Anjolras, souligne la pertinence du modèle déce
 </description>
             <pubDate>Thu, 05 Feb 2026 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-02/vignette-resultats-ann-FR.jpg?h=92a444b5&amp;itok=4d-hZCH4" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>VINCI remporte un contrat hydraulique en Jamaïque</title>
-            <link>https://www.vinci.com/newsroom/communiques-presse/vinci-remporte-un-contrat-hydraulique-en-jamaique</link>
-            <description>VINCI Construction Grands Projets a remporté un contrat de 144 millions d’euros auprès de la National Water Commission (NWC) de Jamaïque pour concevoir et construire 68 km de conduites d’eau potable dans le nord-ouest du pays. Ce projet, d’une durée de 36 mois, s’inscrit dans la phase 1 du Western Water Resilience Programme, un plan visant à renforcer la résilience climatique en sécurisant l’approvisionnement en eau et en réduisant les pertes dans une région marquée par une croissance démographique et touristique. Les travaux, qui s’étendent sur 130 km dans un corridor routier existant, mobiliseront plus de 100 personnes localement et utiliseront des conduites en fonte durables (durée de vie cible supérieure à 50 ans). Une collaboration étroite avec la National Environmental and Planning Agency (NEPA) garantira la protection des milieux naturels, notamment lors du franchissement de rivières. Présent en Jamaïque depuis 1999, VINCI a déjà intervenu après l’ouragan Mélissa et travaille actuellement sur l’usine de traitement de Rio Cobre.
-
-</description>
-            <pubDate>Mon, 02 Feb 2026 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-02/image_0.png?h=888f8bfd&amp;itok=DxaCOe10" type="image/jpeg" />
         </item>
 
     </channel>
