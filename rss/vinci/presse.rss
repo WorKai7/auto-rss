@@ -6,6 +6,14 @@
         <description>Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping</description>
 
         <item>
+            <title>VINCI Airports – Trafic au 31 mars 2026</title>
+            <link>https://www.vinci.com/newsroom/communiques-presse/vinci-airports-trafic-au-31-mars-2026</link>
+            <description>Au premier trimestre 2026, le réseau VINCI Airports a accueilli plus de 74 millions de passagers, soit une hausse de 1,5 % par rapport à la même période de 2025, malgré des tensions géopolitiques au Moyen‑Orient et entre la Chine et le Japon. L’Amérique latine a tiré la croissance, avec notamment +12 % au Brésil (Salvador Bahia) et de fortes progressions au Mexique, en République dominicaine et au Costa Rico, tandis que le Chili a connu un recul à Santiago. Le Cap‑Vert a affiché une hausse de 17 % grâce à de nouvelles liaisons avec easyJet et Transavia, et plusieurs aéroports européens (Belgrade, Édimbourg, Budapest, Lisbonne, Porto) ont poursuivi leur trajectoire de hausse. En revanche, Londres Gatwick a subi l’impact de la réorganisation de l’offre moyen‑courrier et des annulations liées au conflit au Moyen‑Orient, et le trafic domestique français a été freiné par la hausse de la fiscalité.</description>
+            <pubDate>16 avril 2026</pubDate>
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/communiques/img/2026-04/01_gatwick_845_8.jpg?h=92a444b5&amp;itok=Vc08zcMs" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>VINCI remporte la construction d’un tronçon autoroutier en République tchèque</title>
             <link>https://www.vinci.com/newsroom/communiques-presse/vinci-remporte-la-construction-dun-troncon-autoroutier-en-republique</link>
             <description>Eurovia CZ, filiale de VINCI Construction, a obtenu le contrat pour construire le dernier tronçon de l&apos;autoroute D11 entre Jaroměř et Trutnov, soit environ 20 km de chaussée, 31 ponts (2,5 km au total) et un tunnel de 767 m, avec un montant de 364 millions d&apos;euros. Les travaux, qui débuteront en avril 2026 et s&apos;achèveront fin 2029, incluent également la réalisation de 12 km de murs antibruit et la sécurisation des couloirs de migration de la faune sauvage afin de limiter les nuisances sonores et environnementales. VINCI Construction, présent en République tchèque depuis plusieurs années, y emploie plus de 5 400 personnes et a réalisé un chiffre d&apos;affaires de plus de 1,2 milliard d&apos;euros en 2025.</description>
@@ -149,22 +157,6 @@
             <description>Article disponible uniquement sur le site</description>
             <pubDate>Mon, 09 Feb 2026 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci.com/themes/custom/vinci_corp/images/img-placeholder.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Performance remarquable - Cash-flow libre record</title>
-            <link>https://www.vinci.com/newsroom/communiques-presse/performance-remarquable-cash-flow-libre-record</link>
-            <description>**Résumé des résultats annuels 2025 de VINCI**
-
-Le groupe VINCI a enregistré une performance solide en 2025, avec un chiffre d&apos;affaires de 74,6 milliards d&apos;euros en hausse de 4%. Les trois métiers (concessions, services à l&apos;énergie, construction) ont amélioré leurs résultats opérationnels. Le résultat net progresse à 4,9 milliards d&apos;euros (+1%, +10% hors surtaxe IS) et le cash-flow libre atteint un record de 7,0 milliards d&apos;euros.
-
-Pour 2026, le groupe anticipe de nouvelles progressions du chiffre d&apos;affaires et des résultats. Un dividende de 5,00 euros par action est proposé, en augmentation de 0,25 euro.
-
-Le directeur général, Pierre Anjolras, souligne la pertinence du modèle décentralisé et multi-local du groupe dans un contexte géopolitique chahuté. Il met en avant l&apos;intégration réussie des acquisitions, la croissance internationale (60% du CA, 50% du résultat net), et des avancées majeures dans les infrastructures de mobilité (France, Royaume-Uni, Mexique). VINCI engagera des revues de portefeuille pour optimiser ses investissements et aborde 2026 avec sérénité, affirmant sa stratégie centrée sur la transition énergétique, le numérique et les besoins de mobilité.
-
-</description>
-            <pubDate>Thu, 05 Feb 2026 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-02/vignette-resultats-ann-FR.jpg?h=92a444b5&amp;itok=4d-hZCH4" type="image/jpeg" />
         </item>
 
     </channel>
