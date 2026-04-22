@@ -6,6 +6,14 @@
         <description>Flux RSS contenant les informations sur les actualités du site de VINCI, généré par un script de scrapping</description>
 
         <item>
+            <title>VINCI s&apos;engage en faveur de l&apos;orientation professionnelle des lycéennes</title>
+            <link>https://www.vinci.com/newsroom/actualites/vinci-sengage-en-faveur-de-lorientation-professionnelle-des-lyceennes</link>
+            <description>La féminisation des métiers techniques et de l’ingénierie reste un défi majeur, puisque seules 30 % des étudiantes des écoles d’ingénieurs sont des femmes en France. Pour y répondre, VINCI, la Fondation EPF et l’association Elles bougent ont lancé le programme « Dans la peau d’une ingénieure », destiné aux filles de seconde lors de leur stage obligatoire. Ce dispositif propose une immersion d’une semaine en école d’ingénieurs suivie d’une semaine en entreprise afin de découvrir les enseignements académiques et la réalité du terrain. Déjà testé avec succès en 2025, l’initiative sera étendue à plus grande échelle en 2026 pour déconstruire les stéréotypes et susciter des vocations féminines dans l’ingénierie.</description>
+            <pubDate>16 avril 2026</pubDate>
+            <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_highlight_mobile_343x228/public/medias/image/2026/04/signature%20EPF%20-%20VINCI%20-45.jpg?h=a1e1a043&amp;itok=Ads5T_TU" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>VINCI renforce la structuration de son réseau de doctorants et chercheurs</title>
             <link>https://www.vinci.com/newsroom/actualites/vinci-renforce-la-structuration-de-son-reseau-de-doctorants-et-chercheurs</link>
             <description>VINCI souhaite renforcer le doctorat en entreprise via le dispositif Cifre pour intensifier le recrutement de docteurs et consolider un écosystème de collaboration entre chercheurs et équipes opérationnelles. Cette initiative vise à faciliter la circulation des connaissances, identifier des sujets de recherche à fort impact et intégrer les résultats scientifiques dans les projets du groupe, tout en créant un réseau interne de doctorants. La première édition du PhD Day, organisée fin 2025, a rassemblé une trentaine de doctorants du groupe afin de mieux faire connaître le doctorat en entreprise et de mettre en lumière leurs travaux de recherche.</description>
