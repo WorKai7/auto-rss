@@ -6,6 +6,14 @@
         <description>Flux RSS contenant les informations sur les communiqués de presse du site de VINCI, généré par un script de scrapping</description>
 
         <item>
+            <title>VINCI remporte un contrat pour la réalisation d’infrastructures électriques en Guinée</title>
+            <link>https://www.vinci.com/newsroom/communiques-presse/vinci-remporte-un-contrat-pour-la-realisation-dinfrastructures</link>
+            <description>VINCI Energies a obtenu un contrat de 192 millions d’euros avec les ministères guinéens de l’Énergie et de l’Économie et des Finances pour construire, en deux ans et demi, une centrale solaire de 50 MWc (mégawatts‑cristallins), 350 km de lignes de transport à 225 kV et deux postes de transformation très haute tension. Le projet mobilisera plus de 600 personnes et prévoit des formations pour les équipes locales. Il s’inscrit dans le programme guinéen visant à renforcer la souveraineté énergétique grâce à l’intégration d’énergies renouvelables. Le financement bénéficie du soutien des autorités françaises.</description>
+            <pubDate>22 avril 2026</pubDate>
+            <enclosure url="https://www.vinci.com/themes/custom/vinci_corp/images/img-placeholder.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>VINCI Airports – Trafic au 31 mars 2026</title>
             <link>https://www.vinci.com/newsroom/communiques-presse/vinci-airports-trafic-au-31-mars-2026</link>
             <description>Au premier trimestre 2026, le réseau VINCI Airports a accueilli plus de 74 millions de passagers, soit une hausse de 1,5 % par rapport à la même période de 2025, malgré des tensions géopolitiques au Moyen‑Orient et entre la Chine et le Japon. L’Amérique latine a tiré la croissance, avec notamment +12 % au Brésil (Salvador Bahia) et de fortes progressions au Mexique, en République dominicaine et au Costa Rico, tandis que le Chili a connu un recul à Santiago. Le Cap‑Vert a affiché une hausse de 17 % grâce à de nouvelles liaisons avec easyJet et Transavia, et plusieurs aéroports européens (Belgrade, Édimbourg, Budapest, Lisbonne, Porto) ont poursuivi leur trajectoire de hausse. En revanche, Londres Gatwick a subi l’impact de la réorganisation de l’offre moyen‑courrier et des annulations liées au conflit au Moyen‑Orient, et le trafic domestique français a été freiné par la hausse de la fiscalité.</description>
@@ -149,14 +157,6 @@
             <description>Article disponible uniquement sur le site</description>
             <pubDate>Wed, 18 Feb 2026 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci.com/sites/default/files/styles/newsroom_mobile_79x52/public/medias/communiques/img/2026-02/autoroutes-1520%20%281%29.jpg?h=92a444b5&amp;itok=XVm4kwur" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Publication des comptes consolidés certifiés au 31 décembre 2025</title>
-            <link>https://www.vinci.com/newsroom/communiques-presse/publication-des-comptes-consolides-certifies-au-31-decembre-2025</link>
-            <description>Article disponible uniquement sur le site</description>
-            <pubDate>Mon, 09 Feb 2026 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci.com/themes/custom/vinci_corp/images/img-placeholder.jpg" type="image/jpeg" />
         </item>
 
     </channel>
