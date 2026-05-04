@@ -6,6 +6,14 @@
         <description>Flux RSS contenant les informations sur les actualités du site de Vinci Energies, généré par un script de scrapping</description>
 
         <item>
+            <title>Ouverture d’un nouveau centre de formation à Sarstedt</title>
+            <link>https://www.vinci-energies.com/actualites/ouverture-dun-nouveau-centre-de-formation-a-sarstedt/</link>
+            <description>VINCI Energies Building Solutions développe les compétences de ses effectifs et crée un réseau national de formation.</description>
+            <pubDate>Mon, 04 May 2026 00:00:00 -0000</pubDate>
+            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/05/IBS_DE_395x280.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>Candidatures ouvertes pour le Graduate Program Maintenance Industrielle</title>
             <link>https://www.vinci-energies.com/actualites/candidatures-ouvertes-pour-le-graduate-program-maintenance-industrielle/</link>
             <description>Actemium France lance la promotion 2026 de son Graduate Program destiné à de jeunes diplômés d’écoles d’ingénieurs souhaitant s’orienter vers les métiers de la maintenance industrielle.</description>
@@ -83,14 +91,6 @@
             <description>Compte tenu des enjeux de féminisation de nos entreprises, de leurs équipes managériales et de leurs instances dirigeantes, VINCI Energies voit, dans l’index de l’égalité femmes-hommes, une opportunité de progresser en matière de mixité, en France comme hors de France.</description>
             <pubDate>Thu, 12 Feb 2026 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/02/IndexHF_395x280.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>L’art comme vecteur d’inclusion pour les jeunes en zones rurales</title>
-            <link>https://www.vinci-energies.com/actualites/lart-comme-vecteur-dinclusion-pour-les-jeunes-en-zones-rurales/</link>
-            <description>En Maine-et-Loire, la Fondation VINCI pour la Cité soutient l’association La Source Garouste, qui utilise la création artistique pour favoriser l’inclusion et l’émancipation des jeunes issus de territoires ruraux fragilisés.</description>
-            <pubDate>Mon, 26 Jan 2026 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/01/Fondation-VINCI-Art_395x280.jpg" type="image/jpeg" />
         </item>
 
     </channel>
