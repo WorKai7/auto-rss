@@ -6,6 +6,14 @@
         <description>Flux RSS contenant les informations sur les actualités du site de Vinci Energies, généré par un script de scrapping</description>
 
         <item>
+            <title>Le goût du partage, l’appétit du collectif</title>
+            <link>https://www.vinci-energies.com/actualites/le-gout-du-partage-lappetit-du-collectif/</link>
+            <description>Responsable commercial de plusieurs entreprises d’Actemium en Allemagne, Lukas Pflaum a résolument le goût d’apprendre… et de transmettre. Formateur QUARTZ, il a fait sienne une culture d’entreprise fondée sur la confiance et la responsabilité.</description>
+            <pubDate>Wed, 20 May 2026 00:00:00 -0000</pubDate>
+            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/05/Lukas-Pflaum_395x280_©Emanuel-Klempa.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>Ouverture d’un nouveau centre de formation à Sarstedt</title>
             <link>https://www.vinci-energies.com/actualites/ouverture-dun-nouveau-centre-de-formation-a-sarstedt/</link>
             <description>VINCI Energies Building Solutions développe les compétences de ses effectifs et crée un réseau national de formation.</description>
@@ -30,8 +38,16 @@
         </item>
 
         <item>
+            <title>La passion de transmettre</title>
+            <link>https://www.vinci-energies.com/actualites/la-passion-de-transmettre/</link>
+            <description>Responsable administratif et financier de Tunzini et Cegelec (VINCI Energies Building Solutions), Anne Tartar a transformé sa rigueur financière en moteur d’apprentissage collectif. Formatrice du programme QUARTZ, elle partage aujourd’hui les valeurs et les méthodes de VINCI Energies, tout en s’engageant activement dans des actions solidaires.</description>
+            <pubDate>Fri, 24 Apr 2026 00:00:00 -0000</pubDate>
+            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/05/Anne-Tartar_395x280.jpg" type="image/jpeg" />
+        </item>
+
+        <item>
             <title>VINCI remporte un contrat pour la réalisation d’infrastructures électriques en Guinée</title>
-            <link>https://www.vinci-energies.com/communiques-de-presse/vinci-remporte-un-contrat-pour-la-realisation-dinfrastructures-electriques-en-guinee/</link>
+            <link>https://www.vinci-energies.com/communiqus-de-presse/vinci-remporte-un-contrat-pour-la-realisation-dinfrastructures-electriques-en-guinee/</link>
             <description>VINCI Energies a signé avec le ministère de l’Énergie et le ministère de l’Économie et des Finances de Guinée un contrat de 192 millions d’euros pour la réalisation d’un ensemble d’infrastructures de production et de transport d’électricité. Son financement bénéficie du soutien des autorités françaises. D’une durée de deux ans et demi, les travaux mobiliseront...</description>
             <pubDate>Wed, 22 Apr 2026 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2025/07/Presse_395x280.jpg" type="image/jpeg" />
@@ -75,22 +91,6 @@
             <description>VINCI Energies annonce l’acquisition de Sanders Machinebouw B.V. à Liempde et de Fockens &amp; van Puijenbroek Machinefabriek B.V. à Hertogenbosch, aux Pays-Bas. Par cette opération, VINCI Energies enrichit son portefeuille industriel avec des solutions de génie mécanique et de machines de haute précision.</description>
             <pubDate>Thu, 02 Apr 2026 00:00:00 -0000</pubDate>
             <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/04/Acquisition-NL_395x280.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>VINCI remporte la réalisation d’infrastructures fluviales en France</title>
-            <link>https://www.vinci-energies.com/communiques-de-presse/vinci-remporte-la-realisation-dinfrastructures-fluviales-en-france/</link>
-            <description>La Compagnie nationale du Rhône a attribué au groupement d’entreprises¹ , mené par VINCI Construction et comprenant VINCI Energies, la réalisation du doublement des portes aval des écluses de Bollène (Vaucluse) et de Châteauneuf-du-Rhône (Drôme).</description>
-            <pubDate>Wed, 18 Mar 2026 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/03/CP_395x280.jpg" type="image/jpeg" />
-        </item>
-
-        <item>
-            <title>Semi-Marathon Paris 2026 : une course, une vie sauvée</title>
-            <link>https://www.vinci-energies.com/actualites/semi-marathon-paris-2026-une-course-une-vie-sauvee/</link>
-            <description>Le 8 mars dernier, 31 Coureurs du Cœur de VINCI Energies ont participé au semi‑marathon de Paris sous les couleurs de Mécénat Chirurgie Cardiaque.</description>
-            <pubDate>Wed, 11 Mar 2026 00:00:00 -0000</pubDate>
-            <enclosure url="https://www.vinci-energies.com/app/uploads/sites/7/2026/03/Semi2026_395x280.jpg" type="image/jpeg" />
         </item>
 
     </channel>
